@@ -20,7 +20,10 @@ else
 fi
 
 # navigating to parent directory - comment this line if git folder is current directory
-cd ..
+if ! [[ -d .git ]]; then
+    cd ..
+fi
+
 # adding all files to git
 git add -A
 # commit message
