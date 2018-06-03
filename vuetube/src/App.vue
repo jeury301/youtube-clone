@@ -1,17 +1,19 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <VideoPlayer/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld'
+import VideoPlayer from './components/VideoPlayer'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    VideoPlayer
   }
 }
 </script>
