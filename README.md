@@ -5,20 +5,24 @@
 ## Build Setup
 
 ``` bash
-# clone repo and cd into vuetube folder
-cd vuetube
+# create app engine project on google cloud console
 
-# install dependencies
-npm install
+go here - https://console.cloud.google.com
 
-# serve with hot reload at localhost:8080
-npm run dev
+# download and install gcloud, then create a new configuration
 
-# build for production with minification
-npm run build
+gcloud config configurations create vue-tubes
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# once configuration has been setup, run vue-tube.sh
+
+./vue-tube.sh
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Live Demo
+
+> Checkout the live demo of VueTube currently hosted on GAE: <a href="https://vue-tubes.appspot.com/" target="_blank" title="Jeury's Projects">View Jeury's Projects on VueTube</a>
+
+## VueTube Video - Click below
+
+[![VueTube alpha](https://media.giphy.com/media/9AIeruBaaZVe9SG1Wo/giphy.gif)](https://www.youtube.com/watch?v=nrenh6Unvkk)
+
