@@ -30,6 +30,3 @@ git add -A
 git commit -m "$commit_message"
 # pushing to branch
 git push origin $branch_name
-
-
-

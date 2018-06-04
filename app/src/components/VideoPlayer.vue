@@ -32,7 +32,7 @@ let videos = [
     youtubeURL: 'https://www.youtube.com/embed/csoYfiCFju4',
     creator: 'Jeury Mejia',
     likes: 0,
-    views: 0
+    views: 1
   },
   {
     id: 2,
@@ -67,15 +67,6 @@ let videos = [
     thumbnail: 'http://img.youtube.com/vi/c6vjW5ljTJE/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/c6vjW5ljTJE',
     creator: 'Jeury Mejia',
-    likes: 0,
-    views: 0
-  },
-  {
-    id: 6,
-    title: '18-core iMac Pro Review: Not a Trap!',
-    thumbnail: 'https://i.ytimg.com/vi/jn9mHzXJIV0/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAvJvk4k_UNB9nst4pFP-txM1TLZA',
-    youtubeURL: 'https://www.youtube.com/embed/jn9mHzXJIV0',
-    creator: 'Marques Brownlee',
     likes: 0,
     views: 0
   }
