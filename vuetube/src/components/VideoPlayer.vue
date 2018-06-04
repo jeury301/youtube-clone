@@ -9,7 +9,7 @@
           </div>
         </div>
         <div class="video-list">
-          <div :key="video.id" v-for="video in videos" class="thumbnail">
+          <div @click="chooseVideo(video)" :key="video.id" v-for="video in videos" class="thumbnail">
             <div class="thumbnail-img">
               <img :src="video.thumbnail" />
             </div>
@@ -78,6 +78,14 @@ export default {
     return {
       videos,
       activeVideo: videos[0]
+    }
+  },
+  methods: {
+    chooseVideo (video) {
+      // setting video as active video
+      this.activeVideo = video
+      // increase the videos views by 1
+      video.views = 1
     }
   }
 }
