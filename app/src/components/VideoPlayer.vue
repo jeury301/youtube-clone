@@ -27,15 +27,23 @@
 let videos = [
   {
     id: 1,
-    title: 'Nameless Python Game - GamePlay',
-    thumbnail: 'https://img.youtube.com/vi/csoYfiCFju4/0.jpg',
-    youtubeURL: 'https://www.youtube.com/embed/csoYfiCFju4',
-    creator: 'Jeury Mejia',
+    title: 'FaceClone - A facebook clone',
+    thumbnail: 'http://img.youtube.com/vi/MUFcK2pwnGc/0.jpg',
+    youtubeURL: 'https://www.youtube.com/embed/MUFcK2pwnGc',
     likes: 0,
     views: 1
   },
   {
     id: 2,
+    title: 'Nameless Python Game - GamePlay',
+    thumbnail: 'https://img.youtube.com/vi/csoYfiCFju4/0.jpg',
+    youtubeURL: 'https://www.youtube.com/embed/csoYfiCFju4',
+    creator: 'Jeury Mejia',
+    likes: 0,
+    views: 0
+  },
+  {
+    id: 3,
     title: 'EggTimer - macOS development tutorial result',
     thumbnail: 'https://img.youtube.com/vi/ck0gbznoJQw/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/ck0gbznoJQw',
@@ -44,7 +52,7 @@ let videos = [
     views: 0
   },
   {
-    id: 3,
+    id: 4,
     title: 'CS 490 Project - Release Version Demo (December 2017)',
     thumbnail: 'http://img.youtube.com/vi/qNahJ7HPGjk/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/qNahJ7HPGjk',
@@ -53,7 +61,7 @@ let videos = [
     views: 0
   },
   {
-    id: 4,
+    id: 5,
     title: 'Classmo - Final project for CS491 (capstone)',
     thumbnail: 'http://img.youtube.com/vi/Z0_JhfaLb5o/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/Z0_JhfaLb5o',
@@ -62,7 +70,7 @@ let videos = [
     views: 0
   },
   {
-    id: 5,
+    id: 6,
     title: 'An NJIT Advisement system - CS370 Final Project',
     thumbnail: 'http://img.youtube.com/vi/c6vjW5ljTJE/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/c6vjW5ljTJE',
