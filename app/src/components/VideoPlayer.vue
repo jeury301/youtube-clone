@@ -30,6 +30,7 @@ let videos = [
     title: 'FaceClone - A facebook clone',
     thumbnail: 'http://img.youtube.com/vi/MUFcK2pwnGc/0.jpg',
     youtubeURL: 'https://www.youtube.com/embed/MUFcK2pwnGc',
+    creator: 'Jeury Mejia',
     likes: 0,
     views: 1
   },
