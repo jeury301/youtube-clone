@@ -29,7 +29,7 @@ let videos = [
         id: 1,
         title: 'AamazonClone - An amazon clone',
         thumbnail: 'https://img.youtube.com/vi/TTtvJssaFgA/0.jpg',
-        youtubeURL: 'https://www.youtube.com/embed/TTtvJssaFgA"',
+        youtubeURL: 'https://www.youtube.com/embed/TTtvJssaFgA',
         creator: 'Jeury Mejia',
         likes: 0,
         views: 1
